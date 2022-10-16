@@ -8,4 +8,4 @@ Unlike later versions, this version uses the 404 page for routing instead of bei
 
 All files except this file (the README) are untouched from their original states on October 25th 2021 (or 26th for 404.html) (from file modification dates; this originally wasn't a git repo).
 
-This will probably break after project tokens are implemented.
+This will probably break without even further modification after project tokens are implemented.
