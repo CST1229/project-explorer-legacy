@@ -1,0 +1,89 @@
+@import url("/css/header.css");
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@font-face {
+  font-family: "Sans Serif";
+  src: url("font/NotoSans-Medium.ttf");
+}
+@font-face {
+  font-family: "Marker";
+  src: url("https://fonts.googleapis.com/css2?family=Knewave&display=swap");
+}
+@font-face {
+  font-family: "Curly";
+  src: url("https://fonts.googleapis.com/css2?family=Griffy&display=swap");
+}
+@font-face {
+  font-family: "Pixel";
+  src: url("font/Grand9K-Pixel.ttf");
+}
+@font-face {
+  font-family: "Handwriting";
+  src: url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+}
+
+
+/* General variables */
+:root {
+	--black: black;
+	--text: #050933;
+	--dark-gray: #b8b8b8;
+	--light-gray: #ddd;
+	--white: white;
+	
+	--main: #873cff;
+	--lighter-main: #af7cff;
+	--light-main: #9d5fff;
+	--dark-main: #6d2bd6;
+	
+	--text-size: 14pt;
+	--text-size-small: 10pt;
+	--text-size-large: 18pt;
+	--text-size-larger: 24pt;
+}
+
+body {
+	margin: 0;
+	color: var(--text);
+	background-color: white;
+	font-family: "Noto Sans", sans-serif;
+	font-size: var(--text-size);
+}
+
+#content {
+	margin: 0.75em;
+}
+
+/* Here comes the boring stuff */
+hr {
+	background-color: var(--dark-gray);
+	border: none;
+	height: 4px;
+	margin: 4px 0;
+}
+h1, h2, h3, h4 {
+	margin: 0.75em 0 0.1em 0;
+}
+a {
+	color: var(--main);
+	text-decoration: none;
+	font-weight: bold;
+}
+a:visited {
+	color: var(--dark-main);
+}
+a:active {
+	text-decoration: underline;
+}
+input {
+	border: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+input[type=number] {
+input[type=number] {
+	-moz-appearance: textfield;
+}
